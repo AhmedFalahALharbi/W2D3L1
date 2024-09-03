@@ -29,6 +29,7 @@ grid-template-areas:
     "area8 area8 area11 area3 area3";
 }
 .container3 {
+    display: grid;
     background-color:burlywood;
     grid-template-areas: 
     "area7 area16 area16 area2 area2"
@@ -36,11 +37,12 @@ grid-template-areas:
     "area24 area24 area17 area12 area12";
 }
 .container4 {
+    display: grid;
     background-color:brown;
     grid-template-areas: 
     "area19 area14 area14 area21 area21"
-    "area5x6 area5x7 area23 area21 area21"
-    "area6x6 area6x7 area23 area10 area10";
+    "area4 area4 area23 area21 area21"
+    "area4 area4 area23 area10 area10";
 }
 .item-1 {
     background-color: aqua;
