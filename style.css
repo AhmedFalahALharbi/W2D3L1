@@ -1,0 +1,164 @@
+main {
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+display: grid;
+grid-template-areas: 
+"section1 section2"
+"section3 section4";
+}
+.container1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: cadetblue;
+    grid-template-areas: 
+    "area13 area13 area9 area9 area18"
+    "area13 area13 area5 area6 area6"
+    "area22 area22 area5 area6 area6";
+}
+.container2 {
+    display: grid;
+    background-color:blueviolet;
+    grid-template-areas: 
+    "area1 area1 area20 area20 area15"
+    "area1 area1 area11 area3 area3"
+    "area8 area8 area11 area3 area3";
+}
+.container3 {
+    background-color:burlywood;
+    grid-template-areas: 
+    "area7 area16 area16 area2 area2"
+    "area24 area24 area17 area2 area2"
+    "area24 area24 area17 area12 area12";
+}
+.container4 {
+    background-color:brown;
+    grid-template-areas: 
+    "area19 area14 area14 area21 area21"
+    "area5x6 area5x7 area23 area21 area21"
+    "area6x6 area6x7 area23 area10 area10";
+}
+.item-1 {
+    background-color: aqua;
+    grid-area: area13;
+    font-size: 3em;
+}
+.item-2 {
+    background-color: rgb(100, 148, 77);
+    grid-area: area9;
+    
+}
+.item-3 {
+    background-color: rgb(100, 148, 77);
+    grid-area: area18;
+    font-size: 3em;
+}
+.item-4 {
+    background-color: rgb(179, 191, 174);
+    grid-area: area22;
+    font-size: 3em;
+}
+.item-5 {
+    background-color: rgb(52, 110, 141);
+    grid-area: area5;
+    font-size: 3em;
+}
+.item-6 {
+    background-color: rgb(108, 48, 96);
+    grid-area: area6;
+    font-size: 3em;
+}
+.item-7 {
+    background-color: aqua;
+    grid-area: area1;
+    font-size: 3em;
+}
+.item-8 {
+    background-color: rgb(222, 228, 231);
+    grid-area: area20;
+    
+}
+.item-9 {
+    background-color: rgb(100, 148, 77);
+    grid-area: area15;
+    font-size: 3em;
+}
+.item-10 {
+    background-color: rgb(179, 191, 174);
+    grid-area: area8;
+    font-size: 3em;
+}
+.item-11 {
+    background-color: rgb(52, 110, 141);
+    grid-area: area11;
+    font-size: 3em;
+}
+.item-12 {
+    background-color: rgb(108, 48, 96);
+    grid-area: area3;
+    font-size: 3em;
+}
+.item-13 {
+    background-color: aqua;
+    grid-area: area7;
+    font-size: 3em;
+}
+.item-14 {
+    background-color: rgb(100, 148, 77);
+    grid-area: area16;
+    
+}
+.item-15 {
+    background-color: rgb(231, 163, 201);
+    grid-area: area2;
+    font-size: 3em;
+}
+.item-16 {
+    background-color: rgb(179, 191, 174);
+    grid-area: area24;
+    font-size: 3em;
+}
+.item-17 {
+    background-color: rgb(52, 110, 141);
+    grid-area: area17;
+    font-size: 3em;
+}
+.item-18 {
+    background-color: rgb(108, 48, 96);
+    grid-area: area12;
+    font-size: 3em;
+}
+.item-19 {
+    background-color: aqua;
+    grid-area: area19;
+    font-size: 3em;
+}
+.item-20 {
+    background-color: rgb(100, 148, 77);
+    grid-area: area14;
+    
+}
+.item-21 {
+    background-color: rgb(171, 89, 146);
+    grid-area: area21;
+    font-size: 3em;
+}
+.item-22 {
+    background-color: rgb(179, 191, 174);
+    grid-area: area4;
+    font-size: 3em;
+}
+.item-23 {
+    background-color: rgb(52, 110, 141);
+    grid-area: are23;
+    font-size: 3em;
+}
+.item-24 {
+    background-color: rgb(108, 48, 96);
+    grid-area: area10;
+    font-size: 3em;
+}
